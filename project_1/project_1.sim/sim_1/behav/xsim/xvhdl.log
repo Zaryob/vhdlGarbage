@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Zaryob/project_1/project_1.srcs/sources_1/new/inverter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'inverter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Zaryob/project_1/project_1.srcs/sources_1/new/nand_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'nand_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Zaryob/project_1/project_1.srcs/sources_1/new/nand_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'nand_3'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Zaryob/project_1/project_1.srcs/sources_1/new/project.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'project'

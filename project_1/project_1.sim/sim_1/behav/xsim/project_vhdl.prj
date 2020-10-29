@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/new/inverter.vhd" \
+"../../../../project_1.srcs/sources_1/new/nand_2.vhd" \
+"../../../../project_1.srcs/sources_1/new/nand_3.vhd" \
+"../../../../project_1.srcs/sources_1/new/project.vhd" \
+
+# Do not sort compile order
+nosort

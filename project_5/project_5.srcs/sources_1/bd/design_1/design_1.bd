@@ -1,0 +1,77 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xBF4D023FBF4D023F",
+      "device": "xc7vx485tffg1157-1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "xup_nor2_0": "",
+      "xup_nand2_0": "",
+      "xup_xor2_0": ""
+    },
+    "ports": {
+      "A": {
+        "direction": "I"
+      },
+      "B": {
+        "direction": "I"
+      },
+      "E": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "xup_nor2_0": {
+        "vlnv": "xilinx.com:XUP:xup_nor2:1.0",
+        "xci_name": "design_1_xup_nor2_0_1"
+      },
+      "xup_nand2_0": {
+        "vlnv": "xilinx.com:XUP:xup_nand2:1.0",
+        "xci_name": "design_1_xup_nand2_0_1"
+      },
+      "xup_xor2_0": {
+        "vlnv": "xilinx.com:XUP:xup_xor2:1.0",
+        "xci_name": "design_1_xup_xor2_0_2"
+      }
+    },
+    "nets": {
+      "A_1": {
+        "ports": [
+          "A",
+          "xup_nor2_0/a",
+          "xup_nand2_0/a"
+        ]
+      },
+      "B_1": {
+        "ports": [
+          "B",
+          "xup_nor2_0/b",
+          "xup_nand2_0/b"
+        ]
+      },
+      "xup_nor2_0_y": {
+        "ports": [
+          "xup_nor2_0/y",
+          "xup_xor2_0/a"
+        ]
+      },
+      "xup_nand2_0_y": {
+        "ports": [
+          "xup_nand2_0/y",
+          "xup_xor2_0/b"
+        ]
+      },
+      "xup_xor2_0_y": {
+        "ports": [
+          "xup_xor2_0/y",
+          "E"
+        ]
+      }
+    }
+  }
+}

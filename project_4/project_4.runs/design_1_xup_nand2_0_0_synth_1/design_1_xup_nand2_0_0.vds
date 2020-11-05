@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Oct 31 12:49:56 2020
+# Process ID: 10256
+# Current directory: C:/Users/Zaryob/project_4/project_4.runs/design_1_xup_nand2_0_0_synth_1
+# Command line: vivado.exe -log design_1_xup_nand2_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_xup_nand2_0_0.tcl
+# Log file: C:/Users/Zaryob/project_4/project_4.runs/design_1_xup_nand2_0_0_synth_1/design_1_xup_nand2_0_0.vds
+# Journal file: C:/Users/Zaryob/project_4/project_4.runs/design_1_xup_nand2_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_xup_nand2_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1032.105 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/Library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_xup_nand2_0_0, cache-ID = a8a93aa18c552170.
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 31 12:50:14 2020...

@@ -1,0 +1,11 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/Zaryob/project_4/project_4.ip_user_files/bd/design_1/ip/design_1_xup_nand2_0_0/sim/design_1_xup_nand2_0_0.v,1604137527,verilog,,C:/Users/Zaryob/project_4/project_4.ip_user_files/bd/design_1/ip/design_1_xup_nand2_1_0/sim/design_1_xup_nand2_1_0.v,,design_1_xup_nand2_0_0,,,,,,,,
+C:/Users/Zaryob/project_4/project_4.ip_user_files/bd/design_1/ip/design_1_xup_nand2_1_0/sim/design_1_xup_nand2_1_0.v,1604137527,verilog,,,,design_1_xup_nand2_1_0,,,,,,,,
+C:/Users/Zaryob/project_4/project_4.ip_user_files/bd/design_1/ipshared/93ce/src/xup_nand2.v,1604137526,verilog,,C:/Users/Zaryob/project_4/project_4.ip_user_files/bd/design_1/ip/design_1_xup_nand2_0_0/sim/design_1_xup_nand2_0_0.v,,xup_nand2,,,,,,,,
+C:/Users/Zaryob/project_4/project_4.ip_user_files/bd/design_1/sim/design_1.vhd,1604137526,vhdl,,,,design_1,,,,,,,,
+C:/Users/Zaryob/project_4/project_4.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/Zaryob/project_4/project_4.srcs/sim_1/new/testBench.vhd,1604138325,vhdl,,,,cfg_tb_design_1_wrapper;tb_design_1_wrapper,,,,,,,,
+C:/Users/Zaryob/project_4/project_4.srcs/sources_1/imports/hdl/design_1_wrapper.vhd,1604137176,vhdl,,,,design_1_wrapper,,,,,,,,

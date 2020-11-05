@@ -1,0 +1,65 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xC84A32A9C84A32A9",
+      "device": "xc7vx485tffg1157-1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "xup_nand2_0": "",
+      "xup_nand2_1": ""
+    },
+    "ports": {
+      "B": {
+        "direction": "I"
+      },
+      "A": {
+        "direction": "I"
+      },
+      "D": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "xup_nand2_0": {
+        "vlnv": "xilinx.com:XUP:xup_nand2:1.0",
+        "xci_name": "design_1_xup_nand2_0_0"
+      },
+      "xup_nand2_1": {
+        "vlnv": "xilinx.com:XUP:xup_nand2:1.0",
+        "xci_name": "design_1_xup_nand2_1_0"
+      }
+    },
+    "nets": {
+      "B_1": {
+        "ports": [
+          "B",
+          "xup_nand2_0/a",
+          "xup_nand2_0/b"
+        ]
+      },
+      "xup_nand2_0_y": {
+        "ports": [
+          "xup_nand2_0/y",
+          "xup_nand2_1/b"
+        ]
+      },
+      "A_1": {
+        "ports": [
+          "A",
+          "xup_nand2_1/a"
+        ]
+      },
+      "xup_nand2_1_y": {
+        "ports": [
+          "xup_nand2_1/y",
+          "D"
+        ]
+      }
+    }
+  }
+}
